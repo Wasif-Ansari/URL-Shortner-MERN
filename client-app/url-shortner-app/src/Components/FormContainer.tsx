@@ -41,8 +41,8 @@ const FormContainer: React.FunctionComponent<IFormContainerProps> = (props) => {
                              value={fullUrl} onChange={(e:React.ChangeEvent<HTMLInputElement>)=>{setfullUrl(e.target.value)}}/>
 
                             <button type='submit' 
-                            className='absolute top-0 end-0 p-2.5 text-sm font-medium bg-blue-700 h-full
-                             text-white rounded-lg border-blue-700 focus:ring-4 focus:outline-none' >Shorten URL</button>
+                            className='absolute top-0 end-0 p-2.5 text-sm font-medium bg-black h-full
+                             text-white rounded-lg border-white focus:ring-4 focus:outline-none' >Shorten URL</button>
                         </div>
                     </div>
                 </form>
